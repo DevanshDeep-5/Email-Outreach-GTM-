@@ -21,9 +21,9 @@ graph TD
     FG --> CE[CSV Exporter]
     CE --> END[Done]
 
-    style CP fill:#f9f,stroke:#333,stroke-width:2px
-    style CE fill:#bbf,stroke:#333,stroke-width:2px
-    style END fill:#bfb,stroke:#333,stroke-width:2px
+    classDef node fill:#242424,stroke:#c8c8c8,stroke-width:2px,color:#e0e0e0;
+
+    class CP,CF,WR,WebR,CA,CoF,IA,EG,FG,CE,END node;
 ```
 
 ### LangGraph Nodes Explained
